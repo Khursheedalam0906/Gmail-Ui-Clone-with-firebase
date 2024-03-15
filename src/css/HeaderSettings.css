@@ -1,0 +1,20 @@
+.headersettings {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  border-bottom: 1px solid whitesmoke;
+}
+
+.headersettings .headersettings__right {
+  display: flex;
+  align-items: center;
+}
+
+.headersettings .headersettings__right p {
+  padding-right: 1.5rem;
+}
+
+.headersettings .headersettings__right .MuiButtonBase-root svg {
+  font-size: 15px;
+}

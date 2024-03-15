@@ -1,0 +1,52 @@
+.header {
+  height: 60px;
+  background-color: rgb(255, 255, 255);
+  display: grid;
+  grid-template-columns: 20% auto 15%;
+  padding: 0px 20px;
+  border-bottom: 1px solid whitesmoke;
+}
+
+.header__left {
+  display: flex;
+  align-items: center;
+}
+
+.header__left p {
+  padding-left: 8px;
+}
+
+.header__middle {
+  display: flex;
+  align-items: center;
+}
+
+.header__inputrapper {
+  display: flex;
+  align-items: center;
+  background-color: whitesmoke;
+  padding: 5px 10px;
+  width: 70%;
+}
+
+.header__inputrapper svg {
+  color: gray;
+}
+
+.header__inputrapper input {
+  flex: 1;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  padding: 10px;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+}
+
+.header__right .MuiAvatar-root {
+  height: 30px !important;
+  width: 30px !important;
+}

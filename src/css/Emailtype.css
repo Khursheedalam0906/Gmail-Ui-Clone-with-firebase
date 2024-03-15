@@ -1,0 +1,30 @@
+.emailtype {
+  display: grid;
+  grid-template-columns: 20% 20% auto;
+  height: 50px;
+  align-items: center;
+  border-bottom: 1px solid whitesmoke;
+}
+
+.emailtype .emailtype__options {
+  display: flex;
+  align-items: center;
+  padding: 8px 10px;
+  /* border-radius: 10px; */
+}
+
+.emailtype .emailtype__options p {
+  margin-left: 0.5rem;
+}
+
+.emailtype .emailtype__options:hover {
+  background-color: whitesmoke;
+  max-width: 150px;
+}
+
+.emailtype .emailtype__options__isActive {
+  color: #d93025;
+  font-weight: bold;
+  border-bottom: 2px solid #d93025;
+  max-width: 150px;
+}
